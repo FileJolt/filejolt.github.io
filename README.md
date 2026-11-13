@@ -29,6 +29,8 @@
 
 The goal is simple: **useful tools, straightforward information, and no unnecessary clutter.**
 
+FileJolt offers a unified Windows installer for NexLoad and ReelShift alongside individual portable downloads.
+
 ## Software
 
 | | NexLoad | ReelShift |
@@ -60,14 +62,29 @@ The goal is simple: **useful tools, straightforward information, and no unnecess
 
 ## Official Downloads
 
-Windows releases are distributed as **portable ZIP archives** through the applications' official GitHub Releases pages. A FileJolt account is not required.
+FileJolt provides **two ways to use its Windows software**: a dedicated installer or individual portable ZIP downloads. A FileJolt account is not required.
 
-1. Visit the [FileJolt Downloads page](https://filejolt.github.io/downloads/).
-2. Select NexLoad or ReelShift and download its official release.
-3. Extract the complete ZIP archive to a writable folder.
+### FileJolt Installer
+
+**`FileJolt-Setup.exe`** is the official Windows installer for **NexLoad** and **ReelShift**. It lets you select **either application or both** during setup, rather than downloading and setting up each one separately.
+
+1. Visit the [FileJolt Downloads page](https://filejolt.github.io/downloads/) for official download information.
+2. Download **`FileJolt-Setup.exe`** from the official FileJolt distribution link.
+3. Run the installer and choose which applications to install.
+4. Follow the setup prompts to complete installation.
+
+The installer also provides an uninstall option for managing the installed applications.
+
+### Portable ZIP Downloads
+
+Prefer not to use an installer? **NexLoad** and **ReelShift** are also available as separate **Windows x64 portable ZIP archives** through their official GitHub Releases pages.
+
+1. Open the [FileJolt Downloads page](https://filejolt.github.io/downloads/) or the relevant product's GitHub Releases page above.
+2. Download the portable ZIP for NexLoad or ReelShift.
+3. Extract the complete archive to a writable folder.
 4. Launch the application's `.exe` file from the extracted folder.
 
-**Windows security notice:** Some releases may not be digitally signed, so Windows SmartScreen may display a warning. Download only from the official links, check the published SHA-256 checksum when available, and review any warning before choosing whether to run the application.
+**Windows security notice:** The installer and some application releases may not be digitally signed, so Windows SmartScreen may display a warning. Download only from official links, verify a published SHA-256 checksum when available, and review any warning before choosing whether to run the software.
 
 For requirements and troubleshooting, see [FileJolt Support](https://filejolt.github.io/support/).
 
@@ -115,7 +132,7 @@ For questions about the website, use the [FileJolt website issue tracker](https:
 ## Links
 
 **Website:** https://filejolt.github.io/  
-**Downloads:** https://filejolt.github.io/downloads/  
+**Downloads (installer and portable editions):** https://filejolt.github.io/downloads/  
 **GitHub organization:** https://github.com/FileJolt
 
 ---
