@@ -53,3 +53,6 @@ html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--white
 .chip-brand-reelshift img.chip-reelshift-full{width:162px;height:auto;max-height:44px;object-fit:contain}
 .product-name-lockup img.reelshift-lockup-logo{width:min(100%,265px);height:auto;max-height:86px;object-fit:contain;object-position:left center}
 @media(max-width:520px){.chip-brand-reelshift img.chip-reelshift-full{width:123px;max-height:34px}}
+
+/* Download verification notice; matches the existing neutral information panel. */
+.download-note.security-note{margin-top:12px}
