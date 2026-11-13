@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://filejolt.github.io/sitemap.xml
