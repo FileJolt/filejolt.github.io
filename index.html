@@ -1,4 +1,72 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="color-scheme" content="dark"><meta name="theme-color" content="#08090B"><title>FileJolt</title><meta name="description" content="FileJolt brings NexLoad and ReelShift together under one independent Windows software platform."><meta property="og:type" content="website"><meta property="og:site_name" content="FileJolt"><meta property="og:title" content="Purpose-built Windows software | FileJolt"><meta property="og:description" content="FileJolt brings NexLoad and ReelShift together under one independent Windows software platform."><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Purpose-built Windows software | FileJolt"><meta name="twitter:description" content="FileJolt brings NexLoad and ReelShift together under one independent Windows software platform."><link rel="canonical" href="https://filejolt.github.io/"><meta property="og:url" content="https://filejolt.github.io/"><meta property="og:image" content="https://filejolt.github.io/assets/brand/social-preview.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:image" content="https://filejolt.github.io/assets/brand/social-preview.png"><meta property="og:image:alt" content="FileJolt independent Windows software publisher"><link rel="icon" href="/assets/brand/favicon.ico" sizes="any"><link rel="icon" href="/assets/brand/favicon-dark-32.png" type="image/png" sizes="32x32" media="(prefers-color-scheme: light)"><link rel="icon" href="/assets/brand/favicon-white-32.png" type="image/png" sizes="32x32" media="(prefers-color-scheme: dark)"><link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png"><link rel="manifest" href="/assets/brand/site.webmanifest"><link rel="stylesheet" href="/assets/css/site.css"><script defer src="/assets/js/site.js"></script></head><body>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="color-scheme" content="dark"><meta name="theme-color" content="#08090B"><title>FileJolt</title><meta name="description" content="FileJolt brings NexLoad and ReelShift together under one independent Windows software platform."><meta property="og:type" content="website"><meta property="og:site_name" content="FileJolt"><meta property="og:title" content="Purpose-built Windows software | FileJolt"><meta property="og:description" content="FileJolt brings NexLoad and ReelShift together under one independent Windows software platform."><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Purpose-built Windows software | FileJolt"><meta name="twitter:description" content="FileJolt brings NexLoad and ReelShift together under one independent Windows software platform."><link rel="canonical" href="https://filejolt.github.io/"><meta property="og:url" content="https://filejolt.github.io/"><meta property="og:image" content="https://filejolt.github.io/assets/brand/social-preview.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:image" content="https://filejolt.github.io/assets/brand/social-preview.png"><meta property="og:image:alt" content="FileJolt independent Windows software publisher"><link rel="icon" href="/assets/brand/favicon.ico" sizes="any"><link rel="icon" href="/assets/brand/favicon-dark-32.png" type="image/png" sizes="32x32" media="(prefers-color-scheme: light)"><link rel="icon" href="/assets/brand/favicon-white-32.png" type="image/png" sizes="32x32" media="(prefers-color-scheme: dark)"><link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png"><link rel="manifest" href="/assets/brand/site.webmanifest"><link rel="stylesheet" href="/assets/css/site.css"><style id="filejolt-installer-styles">
+/* FileJolt Setup public website section — intentionally separate from site.css to avoid stale CSS caches. */
+/* FileJolt universal installer — additive website sections, v1.0.0 */
+.fj-installer-section{padding:62px 0 0}
+.fj-installer-feature{border:1px solid #434850;border-radius:12px;background:#15171B;overflow:hidden}
+.fj-installer-heading{padding:39px 44px 32px;background:radial-gradient(ellipse at 92% -12%,#2B2F36 0,transparent 55%),#15171B}
+.fj-installer-overline{display:flex;align-items:center;gap:12px;font-size:10px;font-weight:800;letter-spacing:.17em;color:#C7CBD0}
+.fj-installer-square{width:9px;height:9px;border:2px solid #FAFAFB;display:inline-block;transform:rotate(45deg)}
+.fj-installer-version{margin-left:auto;color:#9198A2;font-weight:650;white-space:nowrap}
+.fj-installer-heading-grid{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(270px,.65fr);align-items:end;gap:48px;margin-top:29px}
+.fj-installer-heading h2{font-size:clamp(39px,4.7vw,66px);letter-spacing:-.067em;line-height:1.08;font-weight:690;margin:0 0 19px}
+.fj-installer-heading h2 span{color:#C9CED5}
+.fj-installer-lead{font-size:14px;line-height:1.87;max-width:640px;color:#B8BEC7;margin:0}
+.fj-installer-action-side{display:flex;flex-direction:column;gap:12px;min-width:0}
+.fj-installer-rec{display:flex;align-items:center;gap:8px;color:#C4C9D0;font-size:10px;font-weight:750;letter-spacing:.07em;line-height:1.4}
+.fj-installer-rec-dot{width:6px;height:6px;flex:none;border-radius:100%;background:#F1F1F1}
+.fj-installer-download{width:100%;justify-content:center;gap:11px;white-space:normal;text-align:center}
+.fj-installer-download .arrow-svg{margin-left:auto}
+.fj-installer-release{align-self:center;display:flex;align-items:center;gap:7px;color:#B5BCC5;font-size:12px;text-decoration:underline;text-decoration-color:#545B65;text-underline-offset:5px}
+.fj-installer-release:hover{color:#FFF}
+.fj-installer-release .arrow-svg{width:14px;height:14px}
+.fj-installer-specs{display:flex;flex-wrap:wrap;gap:11px;margin-top:37px;padding-top:21px;border-top:1px solid #383E45}
+.fj-installer-specs span{font-size:10px;letter-spacing:.075em;font-weight:750;color:#AEB4BE;padding:5px 13px 5px 0;border-right:1px solid #393E44}
+.fj-installer-specs span:last-child{border:0}
+.fj-installer-gallery{background:#0F1114;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:21px;padding:24px 30px 29px;border-top:1px solid #353A40;border-bottom:1px solid #343940}
+.fj-installer-shot{margin:0;min-width:0}
+.fj-installer-shot-frame{padding:7px;background:#1A1D21;border:1px solid #3E434C;border-radius:9px;box-shadow:0 15px 38px #0008;overflow:hidden}
+.fj-installer-shot-frame img{display:block;width:100%;height:auto;aspect-ratio:980 / 630;object-fit:contain;border-radius:5px;background:#0F1114}
+.fj-installer-shot figcaption{display:flex;align-items:baseline;flex-wrap:wrap;gap:10px;color:#A8AFB8;font-size:12px;margin:12px 4px 0}
+.fj-installer-shot figcaption span{font-size:9px;color:#7C838E;letter-spacing:.13em;font-weight:750}
+.fj-installer-bottom{display:flex;align-items:start;justify-content:space-between;gap:28px;padding:22px 44px 25px}
+.fj-installer-bottom>span{font-size:12px;color:#AAB1BA;line-height:1.6;max-width:475px}
+.fj-installer-checksum{border:0;padding:0;max-width:600px;flex:1}
+.fj-installer-checksum summary{text-align:right}
+.fj-installer-checksum .checksum-data{margin-top:10px}
+.fj-installer-checksum .checksum-data code{font-size:9px}
+.fj-installer-checksum>p{text-align:right}
+.fj-download-separator{display:flex;align-items:center;gap:20px;padding:44px 10px 7px}
+.fj-download-separator span{height:1px;flex:1;background:#3A3E45}
+.fj-download-separator strong{font-size:10px;letter-spacing:.17em;color:#989FA7;white-space:nowrap}
+.fj-home-installer{padding:36px 0 0}
+.fj-home-installer-inner{display:flex;align-items:center;gap:22px;border:1px solid #3A3E45;border-radius:10px;background:#141619;padding:26px 31px}
+.fj-home-installer-mark{width:68px;height:68px;flex:none;border:1px solid #3D4249;border-radius:9px;background:#22252A;display:grid;place-items:center}
+.fj-home-installer-mark img{width:47px;height:47px;object-fit:contain}
+.fj-home-installer-copy{flex:1;min-width:0}
+.fj-home-installer-copy span{font-size:9px;letter-spacing:.15em;color:#8E959D;font-weight:750}
+.fj-home-installer-copy h2{font-size:25px;margin:5px 0 6px;letter-spacing:-.04em}
+.fj-home-installer-copy p{font-size:12px;color:#ABB2BB;margin:0}
+.fj-home-installer .btn{flex:none}
+.fj-updates-installer{display:flex;align-items:center;justify-content:space-between;gap:25px;margin-top:28px;padding:27px 30px;background:#17191D;border:1px solid #3C4147;border-radius:9px}
+.fj-updates-installer h3{font-size:23px;margin:9px 0}
+.fj-updates-installer p{color:#9DA4AE;font-size:13px;margin:0}
+.fj-updates-installer .btn{flex:none}
+.fj-support-installer{margin-top:30px;display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:32px;border:1px solid #3B4148;border-radius:10px;background:#15171B;padding:32px;overflow:hidden}
+.fj-support-installer h2{font-size:clamp(25px,3vw,37px);margin:17px 0 15px}
+.fj-support-installer p{font-size:13px;line-height:1.83;color:#ADB5BD}
+.fj-support-installer p strong{color:#fff}
+.fj-support-installer .text-link{margin-top:7px}
+.fj-support-installer>img{border:1px solid #414852;border-radius:8px;width:100%;height:auto;object-fit:contain}
+@media(max-width:1020px){.fj-installer-heading-grid{grid-template-columns:1fr;gap:30px}.fj-installer-action-side{align-items:flex-start}.fj-installer-download{max-width:350px}.fj-installer-release{align-self:flex-start}.fj-installer-bottom{flex-direction:column}.fj-installer-checksum{width:100%;max-width:none}.fj-installer-checksum summary,.fj-installer-checksum>p{text-align:left}}
+@media(max-width:760px){.fj-installer-section{padding-top:38px}.fj-installer-heading{padding:27px 23px}.fj-installer-gallery{grid-template-columns:1fr;padding:18px;gap:24px}.fj-installer-bottom{padding:22px 23px}.fj-home-installer-inner{flex-wrap:wrap;padding:23px;gap:16px}.fj-home-installer .btn{width:100%}.fj-updates-installer{flex-direction:column;align-items:stretch}.fj-updates-installer .btn{width:100%}.fj-support-installer{grid-template-columns:1fr}}
+@media(max-width:490px){.fj-installer-heading h2{font-size:39px}.fj-installer-overline{font-size:9px;gap:8px}.fj-installer-version{font-size:8px}.fj-installer-specs{gap:8px}.fj-installer-specs span{font-size:9px;line-height:1.5}.fj-installer-download{max-width:none}.fj-installer-bottom{gap:20px}.fj-installer-shot figcaption{font-size:11px}.fj-download-separator{gap:11px}.fj-download-separator strong{font-size:8px;letter-spacing:.10em}.fj-home-installer-mark{width:54px;height:54px}.fj-home-installer-copy h2{font-size:23px}.fj-support-installer{padding:22px}}
+/* Keep installer deep links visible below the sticky site navigation. */
+#fj-installer-title{scroll-margin-top:145px}
+
+
+/* Small-screen fix for the original homepage announcement strip. */
+@media (max-width:390px){.stripe-content span:nth-child(2){min-width:0;white-space:normal;text-align:right;line-height:1.25}}
+</style><script defer src="/assets/js/site.js"></script></head><body>
  <a class="skip-link" href="#main-content">Skip to content</a>
  <div class="announcement"><div class="container announcement-inner"><span class="status-dot" aria-hidden="true"></span><span>INDEPENDENT WINDOWS SOFTWARE</span><span class="announcement-right">TWO PRODUCTS. ONE HOME.</span></div></div>
  <header class="site-header"><div class="container header-inner"><a class="brand" href="/" aria-label="FileJolt™ home"><img src="/assets/brand/logo-primary.svg" width="190" height="50" alt="FileJolt"><sup class="brand-trademark" aria-hidden="true">™</sup></a><nav class="desktop-nav" aria-label="Main navigation"><a href="/software/" >Software</a><a href="/downloads/" >Downloads</a><a href="/updates/" >Updates</a><a href="/about/" >About</a><a href="/support/" >Support</a></nav><a class="header-action" href="/downloads/">Get software <svg class="arrow-svg" aria-hidden="true" viewBox="0 0 20 20" fill="none"><path d="M5 15 15 5M6 5h9v9" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></a><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open navigation"><span></span><span></span></button></div><nav id="mobile-nav" class="mobile-nav" aria-label="Mobile navigation" hidden><a href="/software/" >Software</a><a href="/downloads/" >Downloads</a><a href="/updates/" >Updates</a><a href="/about/" >About</a><a href="/support/" >Support</a><a class="mobile-download-link" href="/downloads/">Get software <svg class="arrow-svg" aria-hidden="true" viewBox="0 0 20 20" fill="none"><path d="M3.5 10h12m-5-5 5 5-5 5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></a></nav></header>
