@@ -1,0 +1,17 @@
+{
+  "name": "filejolt-website",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "description": "Production-ready, dependency-free static website for FileJolt, NexLoad, and ReelShift.",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/serve.mjs",
+    "test": "node --test scripts/tests/*.test.mjs",
+    "verify": "npm run build && npm test",
+    "verify:releases": "node scripts/verify-releases.mjs"
+  }
+}
